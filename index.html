@@ -82,6 +82,43 @@
             opacity: 0.9;
         }
 
+        .love-button {
+            margin-top: 18px;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 999px;
+            background: #ffffff;
+            color: #ff5d8f;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .love-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.16);
+        }
+
+        .music-section {
+            margin-top: 24px;
+        }
+
+        .music-section h2 {
+            margin: 0 0 12px;
+            font-size: 1.4rem;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: 0;
+            border-radius: 16px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+        }
+
         @keyframes pulse {
             0%, 100% {
                 transform: scale(1);
@@ -108,6 +145,41 @@
         <p>Bu sayfa sadece bir merhaba değil; senin hayatıma kattığın sıcaklık için bir teşekkür.</p>
         <p>Her gülüşün, her anın ve her birlikte olduğumuz anın benim için çok özel.</p>
         <p class="small">Seni seviyorum. Her şey daha güzel olurken, senin varlığın en güzel parça.</p>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 18px;">
+            <button class="love-button" onclick="alert('İyi ki varsın ❤️')">Mesaj 1</button>
+            <button class="love-button" onclick="alert('Hayatıma renk kattın 🌹')">Mesaj 2</button>
+        </div>
+
+        <div class="music-section">
+            <h2>🎵 Şarkımız</h2>
+            <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/qol0bBbcm44"
+                title="Şarkımız"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div style="text-align:center; margin-top:40px; font-family:Arial;">
+            <h2 style="font-size:28px;">💌 Sana minicik bir şey sormak istiyorum...</h2>
+            <p style="font-size:18px; color:#555;">Bir süredir içimde sakladığım bir şey var...</p>
+            <p style="font-size:20px;">Seni gördüğümden beri günlerim daha güzel ❤️</p>
+            <h3>Benimle bir yolculuğa çıkar mısın? 🌸</h3>
+            <button onclick="yes()" style="padding:15px 25px; font-size:18px; border:none; border-radius:25px; background:linear-gradient(45deg, #ff6b81, #ff9ff3); color:white; cursor:pointer; margin:10px; box-shadow:0 4px 15px rgba(0,0,0,0.2);">💖 Evet, isterim</button>
+            <button onclick="no()" style="padding:15px 25px; font-size:18px; border:none; border-radius:25px; background:#f1f1f1; color:#333; cursor:pointer; margin:10px;">😊 Biraz düşüneyim</button>
+        </div>
     </div>
+
+    <script>
+    function yes() {
+        alert("💖 Kalbimi çok mutlu ettin... 🌸");
+    }
+
+    function no() {
+        alert("🥺 Tamam... yine de sen benim için çok özelsin ❤️");
+    }
+    </script>
 </body>
 </html>
