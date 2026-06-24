@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senin İçin ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(#ff9a9e, #fad0c4);
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Seni Seviyorum ❤️</h1>
+        <p>Bu siteyi senin için yaptım.</p>
+        <p>Hayatıma kattığın tüm güzellikler için teşekkür ederim.</p>
+    </div>
+</body>
+</html>
