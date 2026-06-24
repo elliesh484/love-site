@@ -1,49 +1,37 @@
 <!DOCTYPE html>
-<html lang=“tr”>
+<html lang="tr">
 <head>
-<meta charset=“UTF-8”>
-<meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senin İçin ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(#ff9a9e, #fad0c4);
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 50px;
+        }
 
-<title>Umut ❤️</title>
+        h1 {
+            font-size: 3rem;
+        }
 
-<style>
-body{
-  background: linear-gradient(#ff9a9e,#fad0c4);
-  font-family: Arial,sans-serif;
-  text-align:center;
-  color:white;
-  padding:50px;
-}
-
-h1{
-  font-size:3rem;
-}
-
-.kutu{
-  background:rgba(255,255,255,0.2);
-  padding:20px;
-  border-radius:20px;
-  max-width:500px;
-  margin:auto;
-}
-</style>
-
+        .card {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+    </style>
 </head>
-
 <body>
-
-<h1>Umut ❤️</h1>
-
-<div class=“kutu”>
-
-<h2>Seninle tanıştığıma çok mutluyum 🥹💖</h2>
-
-<p>
-Gülüşün, sesin ve varlığın günümü güzelleştiriyor.
-İyi ki hayatımdasın. ❤️
-</p>
-
-</div>
-
+    <div class="card">
+        <h1>Seni Seviyorum ❤️</h1>
+        <p>Bu siteyi senin için yaptım.</p>
+        <p>Hayatıma kattığın tüm güzellikler için teşekkür ederim.</p>
+    </div>
 </body>
 </html>
